@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "card-display-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardDisplay/CardDisplayWebPart.js",
+          "manifest": "./src/webparts/cardDisplay/CardDisplayWebPart.manifest.json"
+        }
+      ]
+    },
+    "card-insert-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardInsert/CardInsertWebPart.js",
+          "manifest": "./src/webparts/cardInsert/CardInsertWebPart.manifest.json"
+        }
+      ]
+    },
+    "card-update-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardUpdate/CardUpdateWebPart.js",
+          "manifest": "./src/webparts/cardUpdate/CardUpdateWebPart.manifest.json"
+        }
+      ]
+    },
+    "pn-p-display-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnPDisplay/PnPDisplayWebPart.js",
+          "manifest": "./src/webparts/pnPDisplay/PnPDisplayWebPart.manifest.json"
+        }
+      ]
+    },
+    "react-file-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactFileUpload/ReactFileUploadWebPart.js",
+          "manifest": "./src/webparts/reactFileUpload/ReactFileUploadWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CardDisplayWebPartStrings": "lib/webparts/cardDisplay/loc/{locale}.js",
+    "CardInsertWebPartStrings": "lib/webparts/cardInsert/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "CardUpdateWebPartStrings": "lib/webparts/cardUpdate/loc/{locale}.js",
+    "PnPDisplayWebPartStrings": "lib/webparts/pnPDisplay/loc/{locale}.js",
+    "ReactFileUploadWebPartStrings": "lib/webparts/reactFileUpload/loc/{locale}.js"
+  }
+}

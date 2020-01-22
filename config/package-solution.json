@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "React Webparts",
+    "id": "f6864926-1985-4ffb-9158-6ff87157d53a",
+    "version": "1.0.0.8",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/react-webpart-solution.sppkg"
+  }
+}
